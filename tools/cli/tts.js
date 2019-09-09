@@ -12,7 +12,7 @@ const appKey = env[`XF_TTS_KEY${app}`];
 
 console.log(`Using app${app}: id ${appId}`);
 
-let tts = new TTS(appId, appKey, { voice_name: 'x_xiaoyuan', volume: '70' });
+let tts = new TTS(appId, appKey, { voice_name: 'x_nannan', volume: '70' });
 
 async function gen_mp3(text, filename) {
   console.log(text);
